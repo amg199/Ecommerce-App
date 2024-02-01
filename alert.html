@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #btn{
+        padding: 10px 14px;
+        background-color: red;
+        color: white;
+        border: 2px solid black;
+        border-radius: 8px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+</style>
+<body>
+    <div class="container">
+        <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro repellat libero commodi nobis aut inventore ut, dolorum iste aspernatur obcaecati? Maiores, praesentium commodi eos non nemo, sequi laborum autem delectus, officia voluptate id. Ab officiis dolore assumenda? Excepturi porro quam rem possimus molestiae nulla temporibus.lorem dbtd bcd gvsdc sc cshgvcv scvgsv csgcts cvsvcsvcsc scvgs cbsvcvcbavgvb gdvav xgvcdf cvscv svc vcgs vcvtvsbc vtdvvbsc vtw bvcywvcbw ctwevcvwvctwec bwcvtw cbvcwv dwgvcwvcgsvctw wgcvwtd wgcvwetvscvwecfw</p>
+    </div>
+    <button id="btn" onclick="toggleHide()">Show/Hidden</button>
+    <script>
+        function toggleHide(){
+            let btn = document.getElementById('btn');
+            let para = document.getElementById('para');
+            if(para.style.display!='none'){
+                para.style.display = 'none';
+
+            }
+            else{
+                para.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html>
